@@ -13,6 +13,7 @@
 		C2102DB4249FC85100B236B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2102DB2249FC85100B236B2 /* Main.storyboard */; };
 		C2102DB6249FC85800B236B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2102DB5249FC85800B236B2 /* Assets.xcassets */; };
 		C2102DB9249FC85800B236B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2102DB7249FC85800B236B2 /* LaunchScreen.storyboard */; };
+		C2102DC1249FC8DA00B236B2 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C2102DC0249FC8DA00B236B2 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C2102DB5249FC85800B236B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2102DB8249FC85800B236B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2102DBA249FC85800B236B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2102DC0249FC8DA00B236B2 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,46 @@
 			children = (
 				C2102DAC249FC85100B236B2 /* AppDelegate.swift */,
 				C2102DAE249FC85100B236B2 /* SceneDelegate.swift */,
-				C2102DB0249FC85100B236B2 /* ViewController.swift */,
-				C2102DB2249FC85100B236B2 /* Main.storyboard */,
+				C2AD1D7A24A06C4C00A5176E /* Model */,
+				C2AD1D7724A06BF200A5176E /* View */,
+				C2AD1D7824A06C0600A5176E /* Controller */,
 				C2102DB5249FC85800B236B2 /* Assets.xcassets */,
-				C2102DB7249FC85800B236B2 /* LaunchScreen.storyboard */,
 				C2102DBA249FC85800B236B2 /* Info.plist */,
+				C2AD1D7924A06C1C00A5176E /* New Group */,
 			);
 			path = SeaFoods;
+			sourceTree = "<group>";
+		};
+		C2AD1D7724A06BF200A5176E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2102DB2249FC85100B236B2 /* Main.storyboard */,
+				C2102DB7249FC85800B236B2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2AD1D7824A06C0600A5176E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2102DB0249FC85100B236B2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2AD1D7924A06C1C00A5176E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C2102DC0249FC8DA00B236B2 /* Inceptionv3.mlmodel */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C2AD1D7A24A06C4C00A5176E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2102DB1249FC85100B236B2 /* ViewController.swift in Sources */,
+				C2102DC1249FC8DA00B236B2 /* Inceptionv3.mlmodel in Sources */,
 				C2102DAD249FC85100B236B2 /* AppDelegate.swift in Sources */,
 				C2102DAF249FC85100B236B2 /* SceneDelegate.swift in Sources */,
 			);
